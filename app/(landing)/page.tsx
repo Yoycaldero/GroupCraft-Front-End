@@ -12,8 +12,8 @@ const LandingPage = () => {
   }, [isSignedIn]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <header className="flex items-center justify-between px-4 py-7 border-b dark:border-gray-800 w-full bg-emerald-600 text-white">
+    <div className="flex flex-col items-center justify-center h-screen mb-[100%] ">
+      <header className="flex items-center justify-between px-4 py-7 border-b dark:border-gray-800 fixed top-0 left-0 w-full bg-emerald-600 text-white ">
         <h1 className="font-sans text-2xl font-semibold tracking-wide">GroupCraft</h1>
         {isLoaded && (
           <div className="flex items-end justify-end ">
